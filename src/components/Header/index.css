@@ -1,0 +1,149 @@
+/* Write your CSS code here */
+.nav-header {
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Roboto';
+}
+
+@media screen and (max-width: 767px) {
+  .nav-header {
+    flex-direction: column;
+  }
+}
+
+.nav-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 85%;
+  max-width: 1110px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 15px;
+}
+
+@media screen and (max-width: 767px) {
+  .nav-content {
+    flex-direction: column;
+    width: 100%;
+    padding-right: 15px;
+  }
+}
+
+.navbar-mobile-logo-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-mobile-logo-container {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .nav-bar-large-container {
+    display: none;
+  }
+}
+
+.website-logo {
+  width: 120px;
+}
+
+@media screen and (min-width: 768px) {
+  .website-logo {
+    width: 165px;
+  }
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-self: flex-end;
+  flex: 1;
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .nav-menu {
+    display: none;
+  }
+}
+
+.nav-menu-mobile {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-menu-mobile {
+    display: none;
+  }
+}
+
+.nav-menu-list-mobile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 70px;
+  background-color: #e6f6ff;
+  flex: 1;
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.nav-menu-item {
+  margin: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #475569;
+}
+
+.nav-menu-item-mobile {
+  cursor: pointer;
+  margin: 0;
+}
+
+.logout-desktop-button {
+  font-weight: 600;
+  font-size: 10px;
+  padding: 8px 16px;
+  color: #ffffff;
+  background-color: #0967d2;
+  border: none;
+  border-radius: 5px;
+  margin-left: 14px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (max-width: 767px) {
+  .logout-desktop-button {
+    display: none;
+  }
+}
+
+.nav-mobile-button {
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-mobile-button {
+    display: none;
+  }
+}
+
+.nav-bar-img {
+  width: 24px;
+}
